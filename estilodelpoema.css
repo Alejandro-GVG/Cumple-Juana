@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Playwrite NZ Guides';
+  src: url('./fonts/PlaywriteNZGuides-Regular.ttf') format('ttf');
+  /* Puedes añadir más formatos para compatibilidad, por ejemplo: */
+  /* src: url('fonts/tu-fuente.woff2') format('woff2'), url('fonts/tu-fuente.woff') format('woff'); */
+}
+@font-face {
+  font-family: 'ScienceGothic-VariableFont';
+  src: url('fonts/ScienceGothic-VariableFont_CTRS\,slnt\,wdth\,wght.ttf') format('ttf');
+  /* Puedes añadir más formatos para compatibilidad, por ejemplo: */
+  /* src: url('fonts/tu-fuente.woff2') format('woff2'), url('fonts/tu-fuente.woff') format('woff'); */
+}
+body{
+    background-image: url(./Img/pngtree-white-paper-texture-background-picture-image_15192732.jpg);
+    div{
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        div{
+            p{
+                font-size: 150%;
+                margin-left: 20%;
+                margin-right: 20%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+}

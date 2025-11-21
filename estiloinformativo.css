@@ -1,0 +1,19 @@
+body{
+    div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+        justify-content: space-between;
+        align-items: center;
+        header{
+            size: 10cm;
+            font-size: 250%;
+            margin-left: 1cm;
+        }
+    }
+}
+        
+ul{
+    font-size: 190%;
+    font-family: 'Times New Roman', Times, serif;
+}
